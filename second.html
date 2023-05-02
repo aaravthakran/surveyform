@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            border-style: groove;
+            background-color: #e6dcdc;
+        }
+        #sachdeva{
+            overflow: hidden;
+        }
+        #aarav{
+            float: right;
+        }
+        #aashwin{
+            float: left;
+        }
+        .thakran{
+            text-decoration: none;
+            color: black;
+        }
+        main{
+            text-align: center;
+            border-style: groove;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 30px;
+            background-color: #e8f3f7;
+        }
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+        #size{
+            padding-bottom :10px; ;
+        }
+        .size2{
+            width: 100px;
+        }
+        .size2:hover{
+            background-color: rgb(34, 163, 193);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header><nav><div id="sachdeva">
+        <div id="aashwin">Survey form</div>
+        <div id="aarav"><a href="" class="thakran">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="" class="thakran">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="" class="thakran">Sign up</a>
+        </div>
+    </div>
+</nav>
+</header>
+<main>
+    <h1 >Register here</h1>
+    <div class="form-control">
+        <label for="name" id="label-name">
+            Name
+        </label>
+
+        <!-- Input Type Text -->
+        <input type="text"
+               id="name"
+               placeholder="Enter your name" />
+    <br>
+        <label for="email" id="label-email">
+            Email
+        </label>
+<!-- Input Type Email-->
+        <input type="email"
+               id="email"
+               placeholder="Enter your email" />
+<br>
+        <label for="age" id="label-age">
+            Age
+        </label>
+
+        <!-- Input Type Text -->
+        <input type="number"
+               id="age"
+               placeholder="Enter your age" />
+               <br>
+               <label for="age" id="label-age">
+               Contact No
+            </label>
+    
+            <!-- Input Type Text -->
+            <input type="number"
+                   id="age"
+                   placeholder="Enter your conatct number" />
+
+    </div>
+    <div id="size">
+        <button type="submit" value="Continue" class="size2" onclick="window.location.href='third.html'" >
+            Continue
+        </button>
+        &nbsp;&nbsp;
+        <input type="reset" class="size2">
+    </div>
+    
+
+</main>
+</body>
+</html>
